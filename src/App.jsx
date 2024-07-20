@@ -30,6 +30,7 @@ function App() {
         </div>
         <div className="flex-1 p-4 md:ml-72">
           <Routes>
+          <Route path="/" element={<MD5Converter />} />
             <Route path="/md5" element={<MD5Converter />} />
             <Route path="/sha1" element={<SHA1Converter />} />
             <Route path="/sha256" element={<SHA256Converter />} />
