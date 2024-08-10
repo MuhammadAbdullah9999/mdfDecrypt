@@ -8,8 +8,6 @@ const Blogs = () => {
       
       <BlogCard img={burpSuiteImage} title="How to Use Burp Suite for scanning Websites"></BlogCard>
       <BlogCard img={owasp} title="What is OWASP top 10"></BlogCard>
-      <BlogCard img={burpSuiteImage} title="How to Use Burp Suite for scanning Websites"></BlogCard>
-      <BlogCard img={burpSuiteImage} title="How to Use Burp Suite for scanning Websites"></BlogCard>
 
     </div>
   );

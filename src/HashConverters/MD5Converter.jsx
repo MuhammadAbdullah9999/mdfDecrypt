@@ -180,6 +180,61 @@ function MD5Converter() {
           </div>
         </div>
       </div>
+      <div className="flex gap-x-8 gap-y-4 justify-center flex-wrap">
+            
+            
+              <a
+                className="underline text-blue-700"
+                target="_blank"
+                href="https://mdfdecrypt.onrender.com/sha1"
+              >
+                Go to SHA-1 Hash Converter
+              </a>
+              <a
+                className="underline text-blue-700"
+                target="_blank"
+                href="https://mdfdecrypt.onrender.com/sha256"
+              >
+                Go to SHA-256 Hash Converter
+              </a>
+              <a
+                className="underline text-blue-700"
+                target="_blank"
+                href="https://mdfdecrypt.onrender.com/sha512"
+              >
+                Go to SHA-512 Hash Converter
+              </a>
+              <a
+                className="underline text-blue-700"
+                target="_blank"
+                href="https://mdfdecrypt.onrender.com/bcrypt"
+              >
+                Go to bcrypt Hash Converter
+              </a>
+              <a
+                className="underline text-blue-700"
+                target="_blank"
+                href="https://mdfdecrypt.onrender.com/md5-crypt"
+              >
+                Go to MD5-Crypt Hash Converter
+              </a>
+
+              <a
+                className="underline text-blue-700"
+                target="_blank"
+                href="https://mdfdecrypt.onrender.com/scan"
+              >
+                Go to Network Scanner
+              </a>
+              <a
+                className="underline text-blue-700"
+                target="_blank"
+                href="https://mdfdecrypt.onrender.com/analyze"
+              >
+                Go to Hash Analyzer
+              </a>
+            
+          </div>
     </div>
   );
 }
