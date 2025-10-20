@@ -18,6 +18,8 @@ import MD5Wordpress from "./HashConverters/MD5 Wordpress"
 import Blogs from "./Blogs/Blogs";
 import HowToUseBurpSuite from "./Blogs/BurpSuite/HowToUseBurpSuite";
 import OWASPTop10 from "./Blogs/OWASP/owaspTop10";
+import ContactUs from "./ContactUs";
+import PrivacyPolicy from "./PrivacyPolicy";
 import './App.css';
 
 import { useState } from "react";
@@ -53,6 +55,8 @@ function App() {
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/blogs/How to Use Burp Suite for scanning Websites" element={<HowToUseBurpSuite />} />
             <Route path="/blogs/What is owasp top 10" element={<OWASPTop10 />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
           </Routes>
 
         </div>

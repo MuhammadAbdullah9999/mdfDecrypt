@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { List, ListItem, ListItemText, Collapse, ListItemIcon, Drawer, IconButton, Typography } from '@mui/material';
-import { ExpandLess, ExpandMore, Lock, Search, NetworkCheck, LockOpen, Menu } from '@mui/icons-material';
+import { ExpandLess, ExpandMore, Lock, Search, NetworkCheck, LockOpen, Menu, ContactMail, Policy } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { useTheme, useMediaQuery } from '@mui/material';
 import DescriptionIcon from '@mui/icons-material/Description';
@@ -121,6 +121,22 @@ const Sidebar = ({ setMode }) => {
             ))}
           </List>
         </Collapse>
+        <Link to="/contact">
+          <ListItem button onClick={() => handleOptionClick('contact')} className="mt-2 hover:bg-gray-700 rounded-lg transition-colors duration-200">
+            <ListItemIcon>
+              <ContactMail style={{ color: 'white' }} />
+            </ListItemIcon>
+            <ListItemText primary="Contact Us" />
+          </ListItem>
+        </Link>
+        <Link to="/privacy">
+          <ListItem button onClick={() => handleOptionClick('privacy')} className="mt-2 hover:bg-gray-700 rounded-lg transition-colors duration-200">
+            <ListItemIcon>
+              <Policy style={{ color: 'white' }} />
+            </ListItemIcon>
+            <ListItemText primary="Privacy Policy" />
+          </ListItem>
+        </Link>
       </List>
     </div>
   );
