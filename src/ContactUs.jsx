@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Send } from "@mui/icons-material";
+import { Mail, Phone, Map, Send } from "@mui/icons-material";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -218,7 +218,7 @@ const ContactUs = () => {
 
                 <div className="flex items-start space-x-4">
                   <div className="bg-blue-100 rounded-full p-3">
-                    <MapPin className="text-blue-600" />
+                    <Map className="text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">

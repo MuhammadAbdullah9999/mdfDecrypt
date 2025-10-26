@@ -1,12 +1,12 @@
 import React from 'react';
-import { Shield, Lock, Eye, Database, Cookie, UserCheck } from '@mui/icons-material';
+import { Shield, Lock, Visibility, Storage, Cookie, VerifiedUser } from '@mui/icons-material';
 
 const PrivacyPolicy = () => {
   const lastUpdated = "October 20, 2025";
 
   const sections = [
     {
-      icon: <Database className="text-blue-600" />,
+      icon: <Storage className="text-blue-600" />,
       title: "Information We Collect",
       content: [
         {
@@ -60,7 +60,7 @@ const PrivacyPolicy = () => {
       ]
     },
     {
-      icon: <Eye className="text-blue-600" />,
+      icon: <Visibility className="text-blue-600" />,
       title: "Third-Party Services",
       content: [
         {
@@ -78,7 +78,7 @@ const PrivacyPolicy = () => {
       ]
     },
     {
-      icon: <UserCheck className="text-blue-600" />,
+      icon: <VerifiedUser className="text-blue-600" />,
       title: "Your Rights",
       content: [
         {
