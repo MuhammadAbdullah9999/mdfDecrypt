@@ -189,7 +189,7 @@ const PrivacyPolicy = () => {
         </div>
 
         {/* Contact Section */}
-        <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl shadow-lg p-8 text-white">
+        {/* <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl shadow-lg p-8 text-white">
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
           <p className="mb-4 text-blue-100">
             If you have any questions about this Privacy Policy or our data practices, please contact us:
@@ -205,7 +205,7 @@ const PrivacyPolicy = () => {
               <span className="font-semibold">Address:</span> 123 Security Street, Tech City, TC 12345, United States
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Consent */}
         <div className="mt-8 bg-green-50 border-l-4 border-green-500 rounded-lg p-6">
