@@ -1,13 +1,18 @@
 import React from "react";
 import HashForm from "./hashForm/HashForm";
+import NordVpnBanner from "../NordVpnBanner";
 
 function SHA1Converter() {
+  const affiliateLink = 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134111&url_id=902';
+  
   return (
     <div>
       <HashForm
         hashType="SHA1"
         hashTitle="SHA1 Hash Converter"
       ></HashForm>
+      
+      <NordVpnBanner type="horizontal" affiliateLink={affiliateLink} />
        
     <div className="flex flex-col gap-4 shadow-2xl rounded-lg p-8">
       <h1 className="text-3xl font-bold text-center mb-8 ">Understanding SHA-1</h1>
@@ -111,6 +116,8 @@ function SHA1Converter() {
       <p className="text-justify text-gray-600">
         Modern cryptographic practices recommend using SHA-256 or SHA-3, which are more secure against current cryptographic attacks.
       </p>
+      
+      <NordVpnBanner type="square" affiliateLink={affiliateLink} className="mt-8" />
     </div>
     </div>
   );

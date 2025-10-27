@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
 import CircularProgress from "@mui/material/CircularProgress";
+import NordVpnBanner from "./NordVpnBanner";
 
 function NetworkScanner() {
+  const affiliateLink = 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134111&url_id=902';
   const [inputText, setInputText] = useState("");
   const [scanResults, setScanResults] = useState(null);
   const [hostname, setHostname] = useState("");
@@ -28,6 +30,8 @@ function NetworkScanner() {
 
   return (
     <div className={`relative ${loading ? "pointer-events-none" : ""}`}>
+      <NordVpnBanner type="horizontal" affiliateLink={affiliateLink} />
+      
       <div className="text-center my-20">
         <h1 className="text-2xl mb-4 font-bold">Network Scanner</h1>
         <div className="flex justify-center gap-8 mt-12">

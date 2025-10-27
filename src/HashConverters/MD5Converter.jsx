@@ -1,10 +1,15 @@
 import React from "react";
 import HashForm from "./hashForm/HashForm";
+import NordVpnBanner from "../NordVpnBanner";
 
 function MD5Converter() {
+  const affiliateLink = 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134111&url_id=902';
+  
   return (
     <div>
       <HashForm hashType="MD5" hashTitle="MD5 Hash Converter"></HashForm>
+      
+      <NordVpnBanner type="horizontal" affiliateLink={affiliateLink} />
 
       <div className="pb-4">
         <div className="flex flex-col gap-4 shadow-2xl rounded-lg p-8 ">

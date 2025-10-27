@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
 import CircularProgress from "@mui/material/CircularProgress";
+import NordVpnBanner from "./NordVpnBanner";
 
 function HashAnalyzer() {
+  const affiliateLink = 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=134111&url_id=902';
   const [inputText, setInputText] = useState("");
   const [outputText, setOutputText] = useState("");
   const [loading, setLoading] = useState(false);
@@ -56,6 +58,8 @@ function HashAnalyzer() {
         </button>
       </div>
     </div>
+
+    <NordVpnBanner type="horizontal" affiliateLink={affiliateLink} />
 
     <div className="pb-4 px-8">
       <div className="flex flex-col gap-4 shadow-2xl rounded-lg p-8">
