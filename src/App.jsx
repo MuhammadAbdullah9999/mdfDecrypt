@@ -21,6 +21,8 @@ import OWASPTop10 from "./Blogs/OWASP/owaspTop10";
 import NordVPNReview from "./Blogs/NordVPN/NordVPNReview";
 import ContactUs from "./ContactUs";
 import PrivacyPolicy from "./PrivacyPolicy";
+import VPNPromotionModal from "./components/VPNPromotionModal";
+import FloatingVPNBar from "./components/FloatingVPNBar";
 import './App.css';
 
 import { useState } from "react";
@@ -63,6 +65,14 @@ function App() {
 
         </div>
       </div>
+      
+      {/* Global VPN Promotion Components */}
+      <VPNPromotionModal 
+        showAfterSeconds={30}
+        exitIntentEnabled={true}
+        timeDelayEnabled={true}
+      />
+      <FloatingVPNBar showAfterScroll={300} />
     </Router>
   );
 }
