@@ -1,0 +1,11 @@
+# 301 Permanent Redirects for SEO-safe domain migration
+
+# Redirect old Render domain to new custom domain
+https://mdfdecrypt.onrender.com/*  https://md5decrypt.tech/:splat  301!
+
+# Redirect www to non-www
+https://www.md5decrypt.tech/*  https://md5decrypt.tech/:splat  301!
+
+# Force HTTPS
+http://md5decrypt.tech/*  https://md5decrypt.tech/:splat  301!
+

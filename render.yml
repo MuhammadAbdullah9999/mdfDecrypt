@@ -18,16 +18,7 @@ services:
         name: X-Content-Type-Options
         value: nosniff
     routes:
-      # 301 Redirect from onrender.com to custom domain (SEO protection)
-      - type: redirect
-        source: https://mdfdecrypt.onrender.com/*
-        destination: https://md5decrypt.tech/:splat
-        permanent: true
-      # 301 Redirect www to non-www
-      - type: redirect
-        source: https://www.md5decrypt.tech/*
-        destination: https://md5decrypt.tech/:splat
-        permanent: true
+      # Note: 301 redirects are handled by public/_redirects file
       - type: rewrite
         source: /md5
         destination: /index.html
