@@ -10,7 +10,24 @@ services:
         - npm install
         - npm run build
     staticPublishPath: build
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
     routes:
+      # 301 Redirect from onrender.com to custom domain (SEO protection)
+      - type: redirect
+        source: https://mdfdecrypt.onrender.com/*
+        destination: https://md5decrypt.tech/:splat
+        permanent: true
+      # 301 Redirect www to non-www
+      - type: redirect
+        source: https://www.md5decrypt.tech/*
+        destination: https://md5decrypt.tech/:splat
+        permanent: true
       - type: rewrite
         source: /md5
         destination: /index.html

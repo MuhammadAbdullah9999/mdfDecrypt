@@ -4,124 +4,124 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <!-- Updated for custom domain md5decrypt.tech -->
 
   <url>
-    <loc>https://mdfdecrypt.onrender.com/</loc>
-    <lastmod>2024-07-20T17:33:13+00:00</lastmod>
+    <loc>https://md5decrypt.tech/</loc>
+    <lastmod>2025-11-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/md5</loc>
+    <loc>https://md5decrypt.tech/md5</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/sha1</loc>
+    <loc>https://md5decrypt.tech/sha1</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/sha256</loc>
+    <loc>https://md5decrypt.tech/sha256</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/sha512</loc>
+    <loc>https://md5decrypt.tech/sha512</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/bcrypt</loc>
+    <loc>https://md5decrypt.tech/bcrypt</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/md5phpbb</loc>
+    <loc>https://md5decrypt.tech/md5phpbb</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/md5-crypt</loc>
+    <loc>https://md5decrypt.tech/md5-crypt</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/oracle</loc>
+    <loc>https://md5decrypt.tech/oracle</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/mysql</loc>
+    <loc>https://md5decrypt.tech/mysql</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/phps</loc>
+    <loc>https://md5decrypt.tech/phps</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/sha-crypt</loc>
+    <loc>https://md5decrypt.tech/sha-crypt</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/md5wordpress</loc>
+    <loc>https://md5decrypt.tech/md5wordpress</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/analyze</loc>
+    <loc>https://md5decrypt.tech/analyze</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/scan</loc>
+    <loc>https://md5decrypt.tech/scan</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://mdfdecrypt.onrender.com/blogs</loc>
+    <loc>https://md5decrypt.tech/blogs</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://mdfdecrypt.onrender.com/blogs/How%20to%20Use%20Burp%20Suite%20for%20scanning%20websites</loc>
+    <loc>https://md5decrypt.tech/blogs/How%20to%20Use%20Burp%20Suite%20for%20scanning%20websites</loc>
     <lastmod>2024-07-20T17:33:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-  <loc>https://mdfdecrypt.onrender.com/blogs/What%20is%20OWASP%20top%2010</loc>
+  <loc>https://md5decrypt.tech/blogs/What%20is%20OWASP%20top%2010</loc>
   <lastmod>2024-07-20T17:33:13+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/contact</loc>
+    <loc>https://md5decrypt.tech/contact</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mdfdecrypt.onrender.com/privacy</loc>
+    <loc>https://md5decrypt.tech/privacy</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
