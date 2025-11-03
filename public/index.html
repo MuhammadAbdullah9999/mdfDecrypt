@@ -49,6 +49,13 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Encrypt and Decrypt your MD5 hashes online</title>
+    
+    <!-- Client-side redirect for old domain (fallback) -->
+    <script>
+      if (window.location.hostname.includes("onrender.com")) {
+        window.location.href = "https://md5decrypt.tech" + window.location.pathname + window.location.search;
+      }
+    </script>
   </head>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-25QF3H761M"></script>
